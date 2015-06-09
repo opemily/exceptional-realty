@@ -85,6 +85,15 @@ iframe {
   height: 403px;
 }
 
+input.error, textarea.error{
+    border: 1px solid red;
+}
+
+span.error{
+  display: none;
+  color: red;
+}
+
 .milk-text {
   font: bold 2.6em 'Elsie Swash Caps', cursive;
   color: white;
